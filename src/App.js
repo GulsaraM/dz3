@@ -9,6 +9,8 @@ import CountPage from "./pages/countPage/CountPage";
 import MenuPage from "./pages/menuPage/MenuPage";
 import PostPage from "./pages/postPage/PostPage";
 import AboutUs from "./pages/aboutUs/AboutUs";
+import FormPage from "./pages/formPage/FormPage";
+import GroupPage from "./pages/groupPage/GroupPage";
 
 function App() {
     const descriptionObj = {
@@ -26,15 +28,17 @@ function App() {
         {/*<MainPage userOne={user}/>*/}
         {/*<UserPage userOne={user}/>*/}
       {/*<AboutPage title="About" description={descriptionObj}/>*/}
-        <h2>Contacts page</h2>
-        <ContactsPage/>
-        <h2>Portfolio page</h2>
-        <PortfolioPage/>
+      {/*  <h2>Contacts page</h2>*/}
+      {/*  <ContactsPage/>*/}
+      {/*  <h2>Portfolio page</h2>*/}
+      {/*  <PortfolioPage/>*/}
         {/*<CountPage/>*/}
       {/*  <MenuPage/>*/}
       {/*  <PostPage/>*/}
-        <h2>About Us</h2>
-        <AboutUs/>
+      {/*  <h2>About Us</h2>*/}
+      {/*  <AboutUs/>*/}
+        <FormPage/>
+        {/*<GroupPage/>*/}
     </div>
   );
 }
